@@ -10,7 +10,7 @@ Website: [socket.my.id](https://socket.my.id)
 5. [Menyetujui Koneksi Pengguna](#menyetujui-koneksi-pengguna)
 
 ## Memulai Koneksi ke Websocket
-Untuk memulai koneksi ke websocket, gunakan URL yang telah Anda buat di dashboard Anda. Saat aplikasi Anda terhubung ke server, server akan mengirim pesan berisi ID koneksi Anda. ID ini dapat digunakan oleh pengguna lain untuk mengirim pesan secara langsung ke Anda.
+Untuk memulai koneksi ke websocket, gunakan URL yang telah Anda buat di [dashboard](https://socket.my.id) Anda. Saat aplikasi Anda terhubung ke server, server akan mengirim pesan berisi ID koneksi Anda. ID ini dapat digunakan oleh pengguna lain untuk mengirim pesan secara langsung ke Anda.
 
 **Catatan**: Setiap pengguna akan secara otomatis terputus dalam 1 menit kecuali disetujui oleh admin atau jika pengguna tersebut mengubah statusnya menjadi admin. Setiap kali ada pengguna baru yang terhubung, sistem akan mengirimkan ID koneksi pengguna tersebut ke admin.
 
