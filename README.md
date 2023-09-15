@@ -1,4 +1,4 @@
-# Dokumentasi Websocket
+# Dokumentasi Socket.my.id
 
 ## Daftar Isi
 1. [Memulai Koneksi ke Websocket](#memulai-koneksi-ke-websocket)
