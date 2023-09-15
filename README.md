@@ -26,7 +26,9 @@ Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `data`.
 
 **Contoh**:
 `{"to":"all","data":"pesan percobaan"}`
+
 `{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":"pesan percobaan"}`
+
 `{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":{"event":"join"}}`
 
 ## Mengirim Ping
