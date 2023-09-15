@@ -53,7 +53,7 @@ Untuk menyetujui koneksi pengguna, kirimkan pesan dengan format JSON berikut:
 - `id`: Diisi dengan ID pengguna yang ingin disetujui.
 
 **Contoh**:
-`{"to":"system","event":"approved","key":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
+`{"to":"system","event":"approved","id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
 
 **Contoh Respon**:
 `{"from":"system","event":"approved","id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","status":"success"}`
