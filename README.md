@@ -33,11 +33,11 @@ Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `data`.
 ```
 
 ```json
-`{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":"pesan percobaan"}`
+{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":"pesan percobaan"}
 ```
 
 ```json
-`{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":{"event":"join"}}`
+{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":{"event":"join"}}
 ```
 
 ## Mengirim Ping
@@ -53,7 +53,7 @@ Admin memiliki kemampuan untuk menyetujui koneksi dari setiap pengguna yang terh
 **Contoh Pesan**:
 
 ```json
-`{"to":"system","event":"admin","key":"hfB2ZCr8PtlRPrv4i8fVOp0Zr9ChEWoPaCYjGFHr"}`
+{"to":"system","event":"admin","key":"hfB2ZCr8PtlRPrv4i8fVOp0Zr9ChEWoPaCYjGFHr"}
 ```
 
 **Contoh Respon**:
@@ -70,7 +70,7 @@ Untuk menyetujui koneksi pengguna, kirimkan pesan dengan format JSON berikut:
 **Contoh Pesan**:
 
 ```json
-`{"to":"system","event":"approved","id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
+{"to":"system","event":"approved","id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}
 ```
 
 **Contoh Respon**:
