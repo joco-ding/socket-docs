@@ -43,7 +43,7 @@ Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `body`.
 ```
 
 ## Mengirim Ping
-Untuk mengirim ping, gunakan format string dengan isian "ping". Server akan merespons dengan JSON `{"system":"pong"}`.
+Untuk mengirim ping, gunakan format string dengan isian "ping". Server akan merespons dengan JSON `{"data":"pong","from":"system"}`.
 
 ## Menentukan Admin
 Admin memiliki kemampuan untuk menyetujui koneksi dari setiap pengguna yang terhubung. Untuk menjadi admin, kirimkan pesan dengan format JSON berikut:
