@@ -12,15 +12,11 @@ Website: [socket.my.id](https://socket.my.id)
 ## Memulai Koneksi ke Websocket
 Untuk memulai koneksi ke websocket, gunakan URL yang telah Anda buat di [dashboard](https://socket.my.id) Anda. Saat aplikasi Anda terhubung ke server, server akan mengirim pesan berisi ID koneksi Anda. ID ini dapat digunakan oleh pengguna lain untuk mengirim pesan secara langsung ke Anda.
 
-**Catatan**: Setiap pengguna akan secara otomatis terputus dalam 1 menit kecuali disetujui oleh admin atau jika pengguna tersebut mengubah statusnya menjadi admin. Setiap kali ada pengguna baru yang terhubung, sistem akan mengirimkan ID koneksi pengguna tersebut ke admin.
+**Catatan**: Setiap pengguna akan secara otomatis terputus dalam 15 detik kecuali disetujui oleh admin atau jika pengguna tersebut mengubah statusnya menjadi admin. Setiap kali ada pengguna baru yang terhubung, sistem akan mengirimkan ID koneksi pengguna tersebut ke admin.
 
 **Contoh Respon**:
 
 `{"from":"system","id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
-
-**Contoh Pesan ke Admin**:
-
-`{"from":"system","new_id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
 
 ## Mengirim Pesan
 Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `body`.
