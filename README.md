@@ -31,15 +31,15 @@ Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `data`.
 **Contoh Pesan**:
 
 ```json
-{"to":"all","data":"pesan percobaan"}
+{"to":"all","body":"pesan percobaan"}
 ```
 
 ```json
-{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":"pesan percobaan"}
+{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","body":"pesan percobaan"}
 ```
 
 ```json
-{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","data":{"event":"join"}}
+{"to":"20d2e4f5-2986-427c-bc85-3d2c10fa564b","body":{"event":"join"}}
 ```
 
 ## Mengirim Ping
