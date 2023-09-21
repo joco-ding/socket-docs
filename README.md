@@ -23,10 +23,10 @@ Untuk memulai koneksi ke websocket, gunakan URL yang telah Anda buat di [dashboa
 `{"from":"system","new_id":"20d2e4f5-2986-427c-bc85-3d2c10fa564b"}`
 
 ## Mengirim Pesan
-Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `data`.
+Untuk mengirim pesan, gunakan format JSON dengan properti `to` dan `body`.
 
 - `to`: Tujuan pengiriman pesan. Bisa ke satu pengguna dengan ID koneksi atau ke semua pengguna dengan isian "all".
-- `data`: Bisa berisi string atau objek yang akan dikirim.
+- `body`: Bisa berisi string atau objek yang akan dikirim.
 
 **Contoh Pesan**:
 
